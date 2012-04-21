@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F4DA74D154260A60079CE22 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4DA74C154260A60079CE22 /* Twitter.framework */; };
+		3F4DA74F154260B60079CE22 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4DA74E154260B60079CE22 /* Accounts.framework */; };
+		3F4DA754154261940079CE22 /* AVYDraftsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4DA752154261940079CE22 /* AVYDraftsTableViewController.m */; };
+		3F4DA755154261940079CE22 /* AVYDraftsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4DA753154261940079CE22 /* AVYDraftsTableViewController.xib */; };
+		3F865AC215423A56004787EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F865AC115423A56004787EF /* UIKit.framework */; };
+		3F865AC415423A56004787EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F865AC315423A56004787EF /* Foundation.framework */; };
+		3F865AC615423A56004787EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F865AC515423A56004787EF /* CoreGraphics.framework */; };
+		3F865ACC15423A56004787EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F865ACA15423A56004787EF /* InfoPlist.strings */; };
+		3F865ACE15423A56004787EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F865ACD15423A56004787EF /* main.m */; };
+		3F865AD215423A56004787EF /* AVYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F865AD115423A56004787EF /* AVYAppDelegate.m */; };
+		3F865AE315423BF0004787EF /* AVYTweetDraft.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F865ADA15423A88004787EF /* AVYTweetDraft.m */; };
+		3FEFC8EA154296F100BF6E54 /* AVYDraftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFC8E8154296F100BF6E54 /* AVYDraftViewController.m */; };
+		3FEFC8EB154296F100BF6E54 /* AVYDraftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FEFC8E9154296F100BF6E54 /* AVYDraftViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F4DA74C154260A60079CE22 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		3F4DA74E154260B60079CE22 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		3F4DA751154261940079CE22 /* AVYDraftsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVYDraftsTableViewController.h; path = "Drafts View/AVYDraftsTableViewController.h"; sourceTree = "<group>"; };
+		3F4DA752154261940079CE22 /* AVYDraftsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVYDraftsTableViewController.m; path = "Drafts View/AVYDraftsTableViewController.m"; sourceTree = "<group>"; };
+		3F4DA753154261940079CE22 /* AVYDraftsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AVYDraftsTableViewController.xib; path = "Drafts View/AVYDraftsTableViewController.xib"; sourceTree = "<group>"; };
+		3F865ABD15423A56004787EF /* Aviary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aviary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F865AC115423A56004787EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F865AC315423A56004787EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F865AC515423A56004787EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F865AC915423A56004787EF /* Aviary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aviary-Info.plist"; sourceTree = "<group>"; };
+		3F865ACB15423A56004787EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F865ACD15423A56004787EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F865ACF15423A56004787EF /* Aviary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aviary-Prefix.pch"; sourceTree = "<group>"; };
+		3F865AD015423A56004787EF /* AVYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVYAppDelegate.h; sourceTree = "<group>"; };
+		3F865AD115423A56004787EF /* AVYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVYAppDelegate.m; sourceTree = "<group>"; };
+		3F865AD915423A88004787EF /* AVYTweetDraft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVYTweetDraft.h; sourceTree = "<group>"; };
+		3F865ADA15423A88004787EF /* AVYTweetDraft.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVYTweetDraft.m; sourceTree = "<group>"; };
+		3FEFC8E7154296F100BF6E54 /* AVYDraftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVYDraftViewController.h; path = "Edit Draft/AVYDraftViewController.h"; sourceTree = "<group>"; };
+		3FEFC8E8154296F100BF6E54 /* AVYDraftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVYDraftViewController.m; path = "Edit Draft/AVYDraftViewController.m"; sourceTree = "<group>"; };
+		3FEFC8E9154296F100BF6E54 /* AVYDraftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AVYDraftViewController.xib; path = "Edit Draft/AVYDraftViewController.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F865ABA15423A56004787EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4DA74F154260B60079CE22 /* Accounts.framework in Frameworks */,
+				3F4DA74D154260A60079CE22 /* Twitter.framework in Frameworks */,
+				3F865AC215423A56004787EF /* UIKit.framework in Frameworks */,
+				3F865AC415423A56004787EF /* Foundation.framework in Frameworks */,
+				3F865AC615423A56004787EF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F4DA750154261690079CE22 /* Drafts View */ = {
+			isa = PBXGroup;
+			children = (
+				3F4DA751154261940079CE22 /* AVYDraftsTableViewController.h */,
+				3F4DA752154261940079CE22 /* AVYDraftsTableViewController.m */,
+				3F4DA753154261940079CE22 /* AVYDraftsTableViewController.xib */,
+			);
+			name = "Drafts View";
+			sourceTree = "<group>";
+		};
+		3F865AB215423A56004787EF = {
+			isa = PBXGroup;
+			children = (
+				3FEFC8E5154296B200BF6E54 /* Edit Draft */,
+				3F4DA750154261690079CE22 /* Drafts View */,
+				3F865AD815423A68004787EF /* Data Model */,
+				3F865AC715423A56004787EF /* Aviary */,
+				3F865AC015423A56004787EF /* Frameworks */,
+				3F865ABE15423A56004787EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F865ABE15423A56004787EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F865ABD15423A56004787EF /* Aviary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F865AC015423A56004787EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F4DA74E154260B60079CE22 /* Accounts.framework */,
+				3F4DA74C154260A60079CE22 /* Twitter.framework */,
+				3F865AC115423A56004787EF /* UIKit.framework */,
+				3F865AC315423A56004787EF /* Foundation.framework */,
+				3F865AC515423A56004787EF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F865AC715423A56004787EF /* Aviary */ = {
+			isa = PBXGroup;
+			children = (
+				3F865AD015423A56004787EF /* AVYAppDelegate.h */,
+				3F865AD115423A56004787EF /* AVYAppDelegate.m */,
+				3F865AC815423A56004787EF /* Supporting Files */,
+			);
+			path = Aviary;
+			sourceTree = "<group>";
+		};
+		3F865AC815423A56004787EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F865AC915423A56004787EF /* Aviary-Info.plist */,
+				3F865ACA15423A56004787EF /* InfoPlist.strings */,
+				3F865ACD15423A56004787EF /* main.m */,
+				3F865ACF15423A56004787EF /* Aviary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F865AD815423A68004787EF /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F865AD915423A88004787EF /* AVYTweetDraft.h */,
+				3F865ADA15423A88004787EF /* AVYTweetDraft.m */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		3FEFC8E5154296B200BF6E54 /* Edit Draft */ = {
+			isa = PBXGroup;
+			children = (
+				3FEFC8E7154296F100BF6E54 /* AVYDraftViewController.h */,
+				3FEFC8E8154296F100BF6E54 /* AVYDraftViewController.m */,
+				3FEFC8E9154296F100BF6E54 /* AVYDraftViewController.xib */,
+			);
+			name = "Edit Draft";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F865ABC15423A56004787EF /* Aviary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F865AD515423A56004787EF /* Build configuration list for PBXNativeTarget "Aviary" */;
+			buildPhases = (
+				3F865AB915423A56004787EF /* Sources */,
+				3F865ABA15423A56004787EF /* Frameworks */,
+				3F865ABB15423A56004787EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aviary;
+			productName = Aviary;
+			productReference = 3F865ABD15423A56004787EF /* Aviary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F865AB415423A56004787EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AVY;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3F865AB715423A56004787EF /* Build configuration list for PBXProject "Aviary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F865AB215423A56004787EF;
+			productRefGroup = 3F865ABE15423A56004787EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F865ABC15423A56004787EF /* Aviary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F865ABB15423A56004787EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F865ACC15423A56004787EF /* InfoPlist.strings in Resources */,
+				3F4DA755154261940079CE22 /* AVYDraftsTableViewController.xib in Resources */,
+				3FEFC8EB154296F100BF6E54 /* AVYDraftViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F865AB915423A56004787EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F865ACE15423A56004787EF /* main.m in Sources */,
+				3F865AE315423BF0004787EF /* AVYTweetDraft.m in Sources */,
+				3F865AD215423A56004787EF /* AVYAppDelegate.m in Sources */,
+				3F4DA754154261940079CE22 /* AVYDraftsTableViewController.m in Sources */,
+				3FEFC8EA154296F100BF6E54 /* AVYDraftViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F865ACA15423A56004787EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F865ACB15423A56004787EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F865AD315423A56004787EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F865AD415423A56004787EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F865AD615423A56004787EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aviary/Aviary-Prefix.pch";
+				INFOPLIST_FILE = "Aviary/Aviary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F865AD715423A56004787EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aviary/Aviary-Prefix.pch";
+				INFOPLIST_FILE = "Aviary/Aviary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F865AB715423A56004787EF /* Build configuration list for PBXProject "Aviary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F865AD315423A56004787EF /* Debug */,
+				3F865AD415423A56004787EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F865AD515423A56004787EF /* Build configuration list for PBXNativeTarget "Aviary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F865AD615423A56004787EF /* Debug */,
+				3F865AD715423A56004787EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F865AB415423A56004787EF /* Project object */;
+}
